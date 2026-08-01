@@ -6,7 +6,7 @@
 }
 
 .titulo {
-  background-color: rgb(229, 229, 6);
+  background-color: rgb(243, 243, 137);
   width: 100%;
   height: 50px;
   margin: 0px;
@@ -48,7 +48,7 @@ article {
   padding: 20px;
 }
 #beneficios{
-  background-color: rgb(228, 255, 152);
+  background-color: rgb(235, 255, 180);
   border-radius: 15px;
   box-shadow: 0 5px 15px rgb(129 34 34 / 20%);
   width: 1500px;
@@ -57,4 +57,9 @@ article {
   margin: 50px;
   padding:20px ;
 
+}
+#sub{
+  text-align: center;
+  color: rgb(76, 118, 84);
+  
 }
