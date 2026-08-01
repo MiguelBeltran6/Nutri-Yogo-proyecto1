@@ -12,65 +12,67 @@
 <body>
     <header>
     <div class="titulo">
-      <h1 id="titulo-pagina">NutriYogo</h1>
+        <img src="./css/Logo-NutriYogo.jpeg" alt="Logo de la empresa" id="logo">
+        <h1 id="titulo-pagina">NutriYogo</h1>
     </div>
   </header>
   <main>
-      <section>
-        <img src="./css/" alt="">
-        <h2>Tipo de productos y precios</h2>
+      <h2 class="sub">Tipo de productos y precios</h2>
+      <section id="yogures">
         <article>
-          <p>Yogur de 200 mL: $4.500 COP</p>
+          <img src="./css/botella-pequeña.jpeg" alt="imagen de botella pequeña" class="productos">
+          <p class="descr">Yogur de 200 mL: $4.500 COP</p>
+          <button>
+            <h3>Comprar ahora</h3>
+          </button>
         </article>
         <article>
-          <p>Yogur de 500 mL: $9.500 COP</p>
+          <img src="./css/botella-mediana.jpeg" alt="imagen de botella mediana" class="productos">
+          <p class="descr">Yogur de 500 mL: $9.500 COP</p>
         </article>
         <article>
-          <p>Yogur de 1 litro (1000 mL): $17.500 COP</p>
+          <img src="./css/botella-grande.jpeg" alt="imagen de botella grande" class="productos">
+          <p class="descr">Yogur de 1 litro (1000 mL): $17.500 COP</p>
         </article>
-        
       </section>
-     <section>
-       <h2>Ingredientes</h2>
-       <ol>
-        <li>Leche</li>
-        <li>Algarroba</li>
-        <li>Maracuya</li>
-        <li>Cultivos lacticos</li>
-       </ol>
-     </section>
-        <h2 id="sub">Propiedades y caracteristicas:</h2>
+        <h2 class="sub">Propiedades y caracteristicas:</h2>
       <section id="info">
         <article>
-          <h2>Leche:</h2><p>La leche es un alimento de origen animal de color blanco, sabor suave y alto valor nutritivo. Está compuesta principalmente por agua, proteínas de alta calidad, grasas, lactosa, vitaminas y minerales. Se caracteriza por ser una excelente fuente de calcio y fósforo, minerales esenciales para el desarrollo y mantenimiento de huesos y dientes. Además, aporta vitaminas A, D, B2 y B12, que contribuyen al buen funcionamiento del organismo, y proporciona energía gracias a la lactosa y las grasas que contiene.</p>
-        
-          <strong>Mas informacion:</strong>
-          <a href="https://www.fao.org/dairy-production-products/es/">https://www.fao.org/dairy-production-products/es/</a>
-        </article>
-  
-        <article>
-          <h2>Algarroba:</h2><p>La algarroba es el fruto del algarrobo y se utiliza principalmente en forma de harina o polvo para la elaboración de alimentos y bebidas. Se caracteriza por su sabor naturalmente dulce, similar al cacao, pero sin cafeína y con un bajo contenido de grasa. Es rica en fibra dietética, lo que favorece la salud digestiva, y aporta minerales como calcio, hierro, potasio y magnesio. Además, contiene antioxidantes naturales que ayudan a proteger las células y puede contribuir al control del colesterol y de los niveles de glucosa cuando forma parte de una alimentación equilibrada.</p>
-        
-          <strong>Mas informacion:</strong>
-          <a href="https://www.fen.org.es/">https://www.fen.org.es/</a>
-        </article>
- 
-        <article>
-
-          <h2>Maracuya:</h2><p>El maracuyá es una fruta tropical de cáscara dura y pulpa amarilla con semillas comestibles, conocida por su sabor agridulce y su aroma intenso. Se caracteriza por ser rico en vitamina C, vitamina A y antioxidantes, los cuales ayudan a fortalecer el sistema inmunológico y proteger las células del daño oxidativo. También contiene una cantidad importante de fibra que favorece la digestión y aporta minerales como potasio y magnesio, esenciales para el funcionamiento de los músculos y el sistema nervioso.</p>
-        
-          <strong>Mas informacion:</strong>
-          <a href="https://www.fen.org.es">https://www.fen.org.es/</a>
+          <img src="./css/leche.jpg" alt="imagen de leche" id="leche">
+          <h2 class="descr">Leche:</h2>
+          <p class="tex">La leche es un alimento de alto valor nutricional que aporta proteínas de excelente calidad, calcio, fósforo, vitamina D (cuando está fortificada), vitaminas del complejo B y grasas saludables. Sus principales beneficios incluyen el fortalecimiento de huesos y dientes, el mantenimiento de la masa muscular, el apoyo al crecimiento y el aporte de energía. Además, las proteínas presentes en la leche contienen aminoácidos esenciales necesarios para la reparación y formación de tejidos del organismo.</p>
+          <button>
+            <a href="https://www.tuasaude.com/es/leche/">Mas informacion</a>
+          </button>
         </article>
         <article>
-          <h2>Cultivos lacticos:</h2><p>Los cultivos lácticos son microorganismos beneficiosos, principalmente bacterias como Lactobacillus, Streptococcus y Bifidobacterium, que se emplean para fermentar la leche y producir alimentos como yogur y queso. Se caracterizan por transformar la lactosa en ácido láctico, lo que mejora la conservación, el sabor, el aroma y la textura de los productos fermentados. Algunas cepas también actúan como probióticos, favoreciendo el equilibrio de la microbiota intestinal, mejorando la digestión de la lactosa y ayudando a inhibir el crecimiento de microorganismos perjudiciales.</p>
-          <strong>Mas informacion:</strong>
-          <a href="https://isappscience.org">https://isappscience.org/</a>
+          <img src="./css/algarroba.jpg" alt="imagen de algarrroba" id="algarroba">
+          <h2 class="descr">Algarroba:</h2>
+          <p class="tex">La algarroba es el fruto del algarrobo y destaca por su alto contenido de fibra, antioxidantes, calcio, magnesio y vitaminas del complejo B. Es utilizada como sustituto del cacao porque posee un sabor similar y no contiene cafeína. Sus propiedades favorecen el funcionamiento del sistema digestivo, ayudan a controlar los niveles de colesterol y glucosa, promueven la sensación de saciedad y contribuyen a la prevención de enfermedades cardiovasculares gracias a sus compuestos antioxidantes.</p>
+          <button>
+            <a href="https://www.tuasaude.com/es/algarroba/">Mas infrormacion</a>
+          </button>
+        </article>
+        <article>
+          <img src="./css/maracuya.jpg" alt="imagen de maracuya" id="maracuya">
+          <h2 class="descr">Maracuya:</h2>
+          <p class="tex">El maracuyá (Passiflora edulis) es una fruta tropical rica en vitamina C, vitamina A, fibra, potasio y compuestos antioxidantes como los flavonoides. Entre sus principales propiedades se encuentran su acción antioxidante, digestiva y relajante. Su consumo puede contribuir a fortalecer el sistema inmunológico, favorecer la salud del corazón, mejorar la digestión gracias a su contenido de fibra y ayudar a controlar los niveles de glucosa en sangre. Además, algunos de sus compuestos naturales se asocian con un efecto calmante que puede contribuir a disminuir el estrés y la ansiedad.</p>
+          <button>
+            <a href="https://www.tuasaude.com/es/maracuya/">Mas infrormacion</a>
+          </button>
+        </article>
+        <article>
+          <img src="./css/cultivo lactico.jpg" alt="imagen de cultivos lacticos" id="cultivo">
+          <h2 class="descr">Cultivos lacticos:</h2>
+          <p class="tex">Los cultivos lácticos son microorganismos beneficiosos, principalmente bacterias del ácido láctico como Lactobacillus y Streptococcus, utilizados en la elaboración de yogures y otros productos fermentados. Estos microorganismos fermentan la lactosa y producen ácido láctico, mejorando el sabor, la textura y la conservación de los alimentos. Entre sus beneficios se encuentran el equilibrio de la microbiota intestinal, el apoyo a la digestión, la inhibición del crecimiento de bacterias perjudiciales y el fortalecimiento de la salud digestiva.</p>
+          <button>
+            <a href="https://es.wikipedia.org/wiki/Cultivos_l%C3%A1cticos">Mas informacion</a>
+          </button>
         </article>
         </section>
         <section id="beneficios">
           <h2>Beneficios de consumir nuestro yogur:</h2>
-          <p>Un yogur elaborado con leche, maracuyá, algarroba y cultivos lácticos ofrece múltiples beneficios nutricionales y funcionales, ya que combina las propiedades de cada ingrediente. La leche aporta proteínas de alta calidad, calcio y vitaminas esenciales para fortalecer los huesos y los músculos; el maracuyá proporciona vitamina C, vitamina A, antioxidantes y fibra, que ayudan a fortalecer el sistema inmunológico y mejorar la digestión; la algarroba añade fibra, minerales y un sabor naturalmente dulce que permite reducir el uso de azúcar; y los cultivos lácticos actúan como probióticos, favoreciendo el equilibrio de la microbiota intestinal, mejorando la digestión y contribuyendo a una mejor absorción de nutrientes. En conjunto, estos ingredientes dan como resultado un yogur nutritivo, de buen sabor y textura, que puede contribuir al bienestar digestivo, al fortalecimiento del sistema inmunológico y a una alimentación saludable.</p>
+          <p class="tex">Un yogur elaborado con leche, maracuyá, algarroba y cultivos lácticos ofrece múltiples beneficios nutricionales y funcionales, ya que combina las propiedades de cada ingrediente. La leche aporta proteínas de alta calidad, calcio y vitaminas esenciales para fortalecer los huesos y los músculos; el maracuyá proporciona vitamina C, vitamina A, antioxidantes y fibra, que ayudan a fortalecer el sistema inmunológico y mejorar la digestión; la algarroba añade fibra, minerales y un sabor naturalmente dulce que permite reducir el uso de azúcar; y los cultivos lácticos actúan como probióticos, favoreciendo el equilibrio de la microbiota intestinal, mejorando la digestión y contribuyendo a una mejor absorción de nutrientes. En conjunto, estos ingredientes dan como resultado un yogur nutritivo, de buen sabor y textura, que puede contribuir al bienestar digestivo, al fortalecimiento del sistema inmunológico y a una alimentación saludable.</p>
         <h4>Hacemos domicilios a toda Bogota</h4>
       </section>
       <section>
