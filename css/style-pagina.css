@@ -112,3 +112,17 @@ article {
 .tex{
   color: rgb(69, 77, 63);
 }
+.botones{
+  background-color: rgb(251, 246, 160);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(14, 16, 1, 0.2);
+  border: none;
+
+}
+.txtbot{
+  font-size: 20px;
+  font-family: var(--fuente);
+  color: rgb(117, 131, 101);
+  text-decoration: none;
+
+}

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
   <link rel="stylesheet" href="./css/style-pagina.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +15,12 @@
     <div class="titulo">
         <img src="./css/Logo-NutriYogo.jpeg" alt="Logo de la empresa" id="logo">
         <h1 id="titulo-pagina">NutriYogo</h1>
+        <nav>
+          <h5>Inicio</h5>
+          <h5>Contactanos</h5>
+          <h5>Acerca de</h5>
+          <h5>Domicilios</h5>
+        </nav>
     </div>
   </header>
   <main>
@@ -22,22 +29,28 @@
         <article>
           <img src="./css/botella-pequeña.jpeg" alt="imagen de botella pequeña" class="productos">
           <p class="descr">Yogur de 200 mL: $4.500 COP</p>
-          <button>
-            <h3>Comprar ahora</h3>
+          <button class="botones">
+            <h3 class="txtbot">Comprar ahora 
+              <i class="fi fi-sr-shopping-cart-add"></i>
+            </h3>
           </button>
         </article>
         <article>
           <img src="./css/botella-mediana.jpeg" alt="imagen de botella mediana" class="productos">
           <p class="descr">Yogur de 500 mL: $9.500 COP</p>
-          <button>
-            <h3>Comprar ahora</h3>
+          <button class="botones">
+            <h3 class="txtbot">Comprar ahora
+              <i class="fi fi-sr-shopping-cart-add"></i>
+            </h3>
           </button>
         </article>
         <article>
           <img src="./css/botella-grande.jpeg" alt="imagen de botella grande" class="productos">
-          <p class="descr">Yogur de 1 litro (1000 mL): $17.500 COP</p>
-          <button>
-            <h3>Comprar ahora</h3>
+          <p class="descr">Yogur de 1000 mL: $17.500 COP</p>
+          <button class="botones">
+            <h3 class="txtbot">Comprar ahora 
+              <i class="fi fi-sr-shopping-cart-add"></i>
+            </h3>
           </button>
         </article>
       </section>
@@ -47,32 +60,39 @@
           <img src="./css/leche.jpg" alt="imagen de leche" id="leche">
           <h2 class="descr">Leche:</h2>
           <p class="tex">La leche es un alimento de alto valor nutricional que aporta proteínas de excelente calidad, calcio, fósforo, vitamina D (cuando está fortificada), vitaminas del complejo B y grasas saludables. Sus principales beneficios incluyen el fortalecimiento de huesos y dientes, el mantenimiento de la masa muscular, el apoyo al crecimiento y el aporte de energía. Además, las proteínas presentes en la leche contienen aminoácidos esenciales necesarios para la reparación y formación de tejidos del organismo.</p>
-          <button>
-            <a href="https://www.tuasaude.com/es/leche/">Mas informacion</a>
+          <button class="botones">
+            <a class="txtbot" href="https://www.tuasaude.com/es/leche/">Mas informacion 
+              <i class="fi fi-sr-arrow-right"></i>
           </button>
         </article>
         <article>
           <img src="./css/algarroba.jpg" alt="imagen de algarrroba" id="algarroba">
           <h2 class="descr">Algarroba:</h2>
           <p class="tex">La algarroba es el fruto del algarrobo y destaca por su alto contenido de fibra, antioxidantes, calcio, magnesio y vitaminas del complejo B. Es utilizada como sustituto del cacao porque posee un sabor similar y no contiene cafeína. Sus propiedades favorecen el funcionamiento del sistema digestivo, ayudan a controlar los niveles de colesterol y glucosa, promueven la sensación de saciedad y contribuyen a la prevención de enfermedades cardiovasculares gracias a sus compuestos antioxidantes.</p>
-          <button>
-            <a href="https://www.tuasaude.com/es/algarroba/">Mas infrormacion</a>
+          <button class="botones">
+            <a class="txtbot" href="https://www.tuasaude.com/es/algarroba/">Mas informacion 
+              <i class="fi fi-sr-arrow-right"></i>
+            </a>
           </button>
         </article>
         <article>
           <img src="./css/maracuya.jpg" alt="imagen de maracuya" id="maracuya">
           <h2 class="descr">Maracuya:</h2>
           <p class="tex">El maracuyá (Passiflora edulis) es una fruta tropical rica en vitamina C, vitamina A, fibra, potasio y compuestos antioxidantes como los flavonoides. Entre sus principales propiedades se encuentran su acción antioxidante, digestiva y relajante. Su consumo puede contribuir a fortalecer el sistema inmunológico, favorecer la salud del corazón, mejorar la digestión gracias a su contenido de fibra y ayudar a controlar los niveles de glucosa en sangre. Además, algunos de sus compuestos naturales se asocian con un efecto calmante que puede contribuir a disminuir el estrés y la ansiedad.</p>
-          <button>
-            <a href="https://www.tuasaude.com/es/maracuya/">Mas infrormacion</a>
+          <button class="botones">
+            <a class="txtbot" href="https://www.tuasaude.com/es/maracuya/">Mas informacion 
+              <i class="fi fi-sr-arrow-right"></i>
+            </a>
           </button>
         </article>
         <article>
           <img src="./css/cultivo lactico.jpg" alt="imagen de cultivos lacticos" id="cultivo">
           <h2 class="descr">Cultivos lacticos:</h2>
           <p class="tex">Los cultivos lácticos son microorganismos beneficiosos, principalmente bacterias del ácido láctico como Lactobacillus y Streptococcus, utilizados en la elaboración de yogures y otros productos fermentados. Estos microorganismos fermentan la lactosa y producen ácido láctico, mejorando el sabor, la textura y la conservación de los alimentos. Entre sus beneficios se encuentran el equilibrio de la microbiota intestinal, el apoyo a la digestión, la inhibición del crecimiento de bacterias perjudiciales y el fortalecimiento de la salud digestiva.</p>
-          <button>
-            <a href="https://es.wikipedia.org/wiki/Cultivos_l%C3%A1cticos">Mas informacion</a>
+          <button class="botones">
+            <a class="txtbot" href="https://es.wikipedia.org/wiki/Cultivos_l%C3%A1cticos">Mas informacion 
+              <i class="fi fi-sr-arrow-right"></i>
+            </a>
           </button>
         </article>
         </section>
